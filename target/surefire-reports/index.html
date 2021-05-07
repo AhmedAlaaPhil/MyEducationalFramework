@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-reg" class="navigator-link">
+              <span class="suite-name border-failed">reg</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-reg" class="navigator-link ">
+                    <span>D:\ENG IT\ITI SW Testing and QA\Automation\testData.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-reg" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-reg" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-reg" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-reg" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-reg" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-reg" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-reg" class="hide-methods failed suite-reg"> (hide)</a> <!-- hide-methods failed suite-reg -->
+                      <a href="#" panel-name="suite-reg" class="show-methods failed suite-reg"> (show)</a> <!-- show-methods failed suite-reg -->
+                    </span>
+                    <div class="method-list-content failed suite-reg">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-reg" title="SelectTest" class="method navigator-link" hash-for-method="selecetFreeTest(Lien / Bond Claim)">selecetFreeTest(Lien / Bond Claim)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-reg -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-reg" class="hide-methods passed suite-reg"> (hide)</a> <!-- hide-methods passed suite-reg -->
+                      <a href="#" panel-name="suite-reg" class="show-methods passed suite-reg"> (show)</a> <!-- show-methods passed suite-reg -->
+                    </span>
+                    <div class="method-list-content passed suite-reg">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-reg" title="SelectTest" class="method navigator-link" hash-for-method="selecetFreeTest(20-Day Preliminary Notice)">selecetFreeTest(20-Day Preliminary Notice)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-reg" title="SelectTest" class="method navigator-link" hash-for-method="selecetFreeTest(Lien Waiver)">selecetFreeTest(Lien Waiver)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-reg" title="SelectTest" class="method navigator-link" hash-for-method="selecetFreeTest(Notice of Intent to Lien)">selecetFreeTest(Notice of Intent to Lien)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-reg -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-reg" class="panel reg">
+          <div class="suite-reg-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">SelectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selecetFreeTest(Lien / Bond Claim)">
+                  </a> <!-- selecetFreeTest(Lien / Bond Claim) -->
+                  <span class="method-name">selecetFreeTest</span>
+                  <span class="parameters">(Lien / Bond Claim)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected object to not be null
+	at SelectTest.selecetFreeTest(SelectTest.java:67)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-reg-class-failed -->
+          <div class="suite-reg-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SelectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selecetFreeTest(20-Day Preliminary Notice)">
+                  </a> <!-- selecetFreeTest(20-Day Preliminary Notice) -->
+                  <span class="method-name">selecetFreeTest</span>
+                  <span class="parameters">(20-Day Preliminary Notice)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selecetFreeTest(Lien Waiver)">
+                  </a> <!-- selecetFreeTest(Lien Waiver) -->
+                  <span class="method-name">selecetFreeTest</span>
+                  <span class="parameters">(Lien Waiver)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selecetFreeTest(Notice of Intent to Lien)">
+                  </a> <!-- selecetFreeTest(Notice of Intent to Lien) -->
+                  <span class="method-name">selecetFreeTest</span>
+                  <span class="parameters">(Notice of Intent to Lien)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-reg-class-passed -->
+        </div> <!-- panel reg -->
+        <div panel-name="test-xml-reg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\ENG IT\ITI SW Testing and QA\Automation\testData.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;reg&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;onChrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SelectTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- onChrome --&gt;
+&lt;/suite&gt; &lt;!-- reg --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-reg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for reg</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">onChrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-reg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for reg</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-reg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for reg</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_reg');
+function tableData_reg() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'selecetFreeTest')
+data.setCell(0, 2, 'SelectTest')
+data.setCell(0, 3, 732);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selecetFreeTest')
+data.setCell(1, 2, 'SelectTest')
+data.setCell(1, 3, 35);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selecetFreeTest')
+data.setCell(2, 2, 'SelectTest')
+data.setCell(2, 3, 35);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'selecetFreeTest')
+data.setCell(3, 2, 'SelectTest')
+data.setCell(3, 3, 31);
+window.suiteTableData['reg']= { tableData: data, tableDiv: 'times-div-reg'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 833 ms</span>
+              <div id="times-div-reg">
+              </div> <!-- times-div-reg -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-reg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for reg</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-reg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-reg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">SelectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">homeInit(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">selecetFreeTest(20-Day Preliminary Notice)</span>
+                <span class="method-start">15569 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selecetFreeTest(Notice of Intent to Lien)</span>
+                <span class="method-start">16303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selecetFreeTest(Lien / Bond Claim)</span>
+                <span class="method-start">16339 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selecetFreeTest(Lien Waiver)</span>
+                <span class="method-start">16382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">16414 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

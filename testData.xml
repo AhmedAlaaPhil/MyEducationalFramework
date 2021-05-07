@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="reg"  verbose="0" thread-count="10">
+<test name="onChrome">
+    <parameter name="browser" value="Chrome"/>
+   <classes>
+       <class name="SelectTest"/>
+
+   </classes>
+
+    
+</test>
+
+   <!-- <test name="onFireFox">
+        <parameter name="browser" value="FireFox"/>
+        <classes>
+            <class name="SelectTest"/>
+
+        </classes>
+
+
+    </test>-->
+
+
+
+
+
+</suite>

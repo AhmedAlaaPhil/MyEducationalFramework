@@ -1,0 +1,1 @@
+{"uuid":"07f41d65-34ee-4d4c-8b03-cf3696d9dbd4","name":"WorkShop","children":["47010936-2a3f-4417-8f99-651fb5beca49"],"befores":[{"name":"homeInit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1620303216323,"stop":1620303238843}],"afters":[],"links":[],"start":1620303216261,"stop":1620303241719}

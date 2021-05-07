@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: SelectTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 52.622 sec <<< FAILURE!
+selecetFreeTest(SelectTest)  Time elapsed: 2.032 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.assertNotNull(Assert.java:686)
+	at org.testng.Assert.assertNotNull(Assert.java:671)
+	at SelectTest.selecetFreeTest(SelectTest.java:66)
+

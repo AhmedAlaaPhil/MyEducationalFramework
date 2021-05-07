@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SelectTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="SelectTest">
+        <methods>
+          <include name="endOfTest"/>
+          <include name="selecetFreeTest" invocation-numbers="2"/>
+          <include name="homeInit"/>
+        </methods>
+      </class> <!-- SelectTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [SelectTest] -->

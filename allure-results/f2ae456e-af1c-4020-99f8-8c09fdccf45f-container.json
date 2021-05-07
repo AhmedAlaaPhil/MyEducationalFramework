@@ -1,0 +1,1 @@
+{"uuid":"f2ae456e-af1c-4020-99f8-8c09fdccf45f","name":"SelectTest","children":["54025b06-39d6-42c4-84b7-932128305c2d"],"befores":[],"afters":[{"name":"endOfTest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1620303336505,"stop":1620303338648}],"links":[],"start":1620303312150,"stop":1620303338680}

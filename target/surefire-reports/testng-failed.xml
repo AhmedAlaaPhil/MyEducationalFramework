@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="tests" name="Failed suite [reg]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="10" parallel="tests" name="onChrome(failed)" verbose="0">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="SelectTest">
+        <methods>
+          <include name="endOfTest"/>
+          <include name="selecetFreeTest" invocation-numbers="2"/>
+          <include name="homeInit"/>
+        </methods>
+      </class> <!-- SelectTest -->
+    </classes>
+  </test> <!-- onChrome(failed) -->
+</suite> <!-- Failed suite [reg] -->
